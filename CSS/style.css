@@ -70,3 +70,10 @@ body {
   
 }
 /************** FINALIZADO PARTE FRONTAL*********/
+.card .verso .blackbar{
+  position: absolute;
+  width: 50px;
+  left: 240px;
+  height: 100%;
+  background: #000;
+}
