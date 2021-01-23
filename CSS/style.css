@@ -57,6 +57,8 @@ body {
 }
 
 .description .nome{
+  color: rgb(255, 255, 255);
+  background: rgba(255, 255, 255, 0.1);
   font-size: 18px;
   margin-left: 50px;
   text-align: center;
@@ -64,7 +66,9 @@ body {
   margin-bottom: 10px;
 }
 .description .textSimple{
+  color: rgb(255, 255, 255);
   width: 90%;
+  background:  rgba(0, 0, 0, 0.2);
   margin-top: 10px;
   margin-left: 10px;
   
