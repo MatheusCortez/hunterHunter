@@ -19,10 +19,9 @@ body {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-
   flex-wrap: wrap;
   z-index: 1;
-  backdrop-filter: blur(8px);
+  backdrop-filter: blur(5px);
 }
 .container .card {
   position: relative;
@@ -46,4 +45,28 @@ body {
   position: absolute;
   margin: 30px 50px;
 }
+.logo_name .listra{
+  position: relative;
+  top: 150px;
+  right:20px;
 
+}
+.logo_name .listra img{
+  height: 50px;
+  width: 260px;
+}
+
+.description .nome{
+  font-size: 18px;
+  margin-left: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.description .textSimple{
+  width: 90%;
+  margin-top: 10px;
+  margin-left: 10px;
+  
+}
+/************** FINALIZADO PARTE FRONTAL*********/
