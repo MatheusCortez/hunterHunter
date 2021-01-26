@@ -1,7 +1,6 @@
 * {
   margin: 0px;
   padding: 0px;
-  box-sizing: border-box;
 }
 
 body {
@@ -9,8 +8,17 @@ body {
   justify-content: center;
   align-items: center;
   background-image: url(/CSS/background.jpeg);
+  background-repeat: repeat
 }
 
+@media(max-width: 780px){
+  body{
+  
+    background: url(/CSS/background.jpeg) repeat-x;
+    background-color: #1a1a1a;
+  }
+
+}
 .container {
   position: relative;
   width: 100%;
@@ -45,36 +53,34 @@ body {
   position: absolute;
   margin: 30px 50px;
 }
-.logo_name .listra{
+.logo_name .listra {
   position: relative;
   top: 150px;
-  right:20px;
-
+  right: 20px;
 }
-.logo_name .listra img{
+.logo_name .listra img {
   height: 50px;
   width: 260px;
 }
 
-.description .nome{
+.description .nome {
   color: rgb(255, 255, 255);
   background: rgba(255, 255, 255, 0.1);
   font-size: 18px;
-  margin-left: 50px;
+  margin: 0 30px;
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 10px;
 }
-.description .textSimple{
+.description .textSimple {
   color: rgb(255, 255, 255);
   width: 90%;
-  background:  rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.2);
   margin-top: 10px;
   margin-left: 10px;
-  
 }
 /************** FINALIZADO PARTE FRONTAL*********/
-.card .verso .blackbar{
+.card .verso .blackbar {
   position: absolute;
   width: 50px;
   left: 240px;
